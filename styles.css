@@ -1,0 +1,152 @@
+﻿body{
+    background-color:#e3ffed;
+    font-family:Verdana,Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    margin:0 auto;
+    width:100%;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+    font-weight:bold;
+    font-variant:small-caps;
+    text-align:center;
+  
+}
+label {
+    font-weight: bold;
+    margin-right:10px;
+    margin-bottom:20px;
+    width:45%;
+    text-align:right;
+    display:inline-block;
+}
+input[type="text"],input[type="password"]{
+    width:180px; 
+} 
+input[type="text"]:focus,input[type="password"]:focus{
+    background-color:#233598;
+    color:#fff;
+}
+input[type="submit"]{
+    width:200px; 
+    display:block;
+    margin:0 auto;
+    margin-bottom:15px;
+}
+
+nav{
+    margin-top:60px;
+    margin-right:40px; 
+    text-align:center;
+}
+nav ul{
+    width:200px;
+    display:inline;
+    text-align:center;
+}
+nav ul li{
+    list-style-type:none;
+    text-align:center;
+    margin-bottom:10px;
+    padding:20px;
+    display:inline;
+}
+nav ul li a{
+    text-decoration:none;
+    background-color:#1b5a00;
+    color:#fff;
+    padding:20px;
+    border:3px solid #000;
+}
+nav ul li a:hover{
+    background-color:#8eff35;
+    color:#000;
+}
+#errorPage{
+    font-style:italic;
+    color:red;
+    text-align:center;
+}
+.error{
+    font-style:italic;
+    color:red; 
+    display:block;
+    text-align:center;
+    margin-bottom: 10px;
+}
+.errorSummary{
+    font-style:italic;
+    color:red; 
+    display:block;
+    margin-bottom: 10px;
+    margin:auto;
+}
+#lblOutput{
+    display:block;
+    text-align:center;
+}
+#lblAnswer{
+    display:block;
+    text-align:center;
+}
+.pageAnchor{
+    text-decoration:none;
+    background-color:#000000;
+    color:#fff;
+    padding:5px;
+    border-radius:6px;
+    text-align:center;
+    margin-bottom:20px;
+    display: inline-block;
+}
+#radMunny,#radFunny{
+    margin-left:20px;
+}
+#btnCalculate{
+    display:block;
+    margin:0 auto;
+}
+/*new selector for check box*/
+#check{
+    text-align:center;
+}
+.anchor{
+    text-align:center;
+}
+#lblInstruct{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#lblConversion{
+    text-align:center;
+    display:block;
+    margin: auto;
+    margin-bottom:20px;
+}
+#btnConvert{
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    display:inline;
+}
+#btnCalculate{
+    margin-bottom:15px;
+}
+/*#ValidationSummary1{
+    margin:auto;
+}*/
+.congrat{
+    margin-left:10%;
+}
+p{
+    text-align:center;
+}
+.instruct{
+    font-style:italic;
+    color:#0a3815;
+}
+
